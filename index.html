@@ -2,12 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="./fonts.css">
+    <link rel="stylesheet" href="./style.css">
       <title>Axion</title>
   </head>
   <body>
     <header class="header">
       <div class="header__left">
-        <div class="logo">AXION</div>
+        <div class="logo">
+          <img class="logo__axion" src="img/header/logo.svg" alt="AXION">
+        </div>
         <nav class="menu">
           <a class="menu__link" href="#">SHOP</a>
           <a class="menu__link" href="#">NEWS</a>
@@ -21,155 +25,176 @@
           <input class="search__input">
         </div>
         <div class="buttoms">
-          <button class="buttoms__but-1">SIGN IN</button>
-          <button class="buttoms__but-2">CART</button>
-          <button class="buttoms__but-3">флаг</button>
+          <button class="buttoms__but-input">SIGN IN</button>
+          <button class="buttoms__but">CART</button>
+        </div>
+        <div class="usa">
+          <img class="usa__img" src="img/header/usa.svg" alt="AXION">
         </div>
       </div>
    </header>
      <main class="main">
-       <section class="block1">
-         <img class="block1__img" src="" alt="Картинка FOOTWEAR">
-         <h1 class="block1__title">LEGENDARY FOOTWEAR REBORN.</h1>
-         <a class="block1__link" href="#">SHOP NOW</a>
+       <section class="first">
+         <img class="first__img" src="" alt="Картинка FOOTWEAR">
+         <h1 class="first__title">LEGENDARY FOOTWEAR REBORN.</h1>
+         <a class="first__link" href="#">SHOP NOW
+           <img class="arrow-first" src="img/arrow-w.svg" alt="Стрелка">
+         </a>
        </section>
-       <section class="block2">
-         <h2 class="block2__title">FEATURED PRODUCT</h2>
-         <div class="block2__content">
-           <div class="content-1">
-             <img class="content-1__img" src="" alt="Фото Atlas Black">
-             <p class="content-1_text">Atlas Black/Pasta Axion</p>
-             <p class="content-1_price">$89.00</p>
+       <section class="product">
+         <h2 class="product__title">FEATURED PRODUCT</h2>
+         <div class="product__content">
+           <div class="content-black">
+             <img class="content-black__img" src="img/product/product-1.svg" alt="Фото Atlas Black">
+             <p class="content-black__text">Atlas Black/Pasta Axion</p>
+             <p class="content-black__price">$89.00
+               <img class="circle-black" src="img/circle1.svg" alt="Circles1">
+             </p>
            </div>
-           <div class="content-2">
-             <img class="content-2__img" src="" alt="Фото Camel">
-             <p class="content-2_text">Camel/Chili Pepper Axion</p>
-             <p class="content-2_price">$74.00</p>
+           <div class="content-camel">
+             <img class="content-camel__img" src="img/product/product-2.svg" alt="Фото Camel">
+             <p class="content-camel__text">Camel/Chili Pepper Axion</p>
+             <p class="content-camel__price">$74.00
+               <img class="circle-camel" src="img/circle2.svg" alt="Circles2">
+             </p>
            </div>
-           <div class="content-3">
-             <img class="content-3__img" src="" alt="Фото Mandel Smoke">
-             <p class="content-3_text">Mandel Smoke/Rust Axion</p>
-             <p class="content-3_price">$69.00</p>
+           <div class="content-smoke">
+             <img class="content-smoke__img" src="img/product/product-3.svg" alt="Фото Mandel Smoke">
+             <p class="content-smoke__text">Mandel Smoke/Rust Axion</p>
+             <p class="content-smoke__price">$69.00
+               <img class="circle-smoke" src="img/circle3.svg" alt="Circles3">
+             </p>
            </div>
-           <div class="content-4">
-             <img class="content-4__img" src="" alt="Фото Cloud">
-             <p class="content-4_text">Cloud/Electric Blue/Axion</p>
-             <p class="content-4_price">$69.00</p>
+           <div class="content-cloud">
+             <img class="content-cloud__img" src="img/product/product-4.svg" alt="Фото Cloud">
+             <p class="content-cloud__text">Cloud/Electric Blue/Axion</p>
+             <p class="content-cloud__price">$69.00
+               <img class="circle-cloud" src="img/circle4.svg" alt="Circles4">
+             </p>
            </div>
          </div>
        </section>
-       <section class="block3">
-         <div class="block3-video">
-           <img class="block3-video__img" src="" alt="Video">
+       <section class="block-video">
+         <div class="video">
+           <img class="video__img" src="" alt="Video">
+           <img class="video__play" src="img/play.svg" alt="play">
          </div>
-         <div class="block3-content">
-           <h3 class="block3-content__title">LEGENDARY FOOTWEAR REBORN</h3>
-           <p class="block3-content__text">
+         <div class="content">
+           <h3 class="content__title">LEGENDARY FOOTWEAR REBORN</h3>
+           <p class="content__text">
              We are a&nbsp;brand with a&nbsp;history and are relaunching
              for 2019. We’ve been a&nbsp;part of the skater’s family
              ever since it’s early teenage years. And now we presentate
              a&nbsp;new footwear collection.</p>
-           <a class="block3-content__link" href="#">Learn more</a>
+           <a class="content__link" href="#">LEARN MORE
+             <img class="arrow-video" src="img/arrow-w.svg" alt="Стрелка">
+           </a>
          </div>
        </section>
-       <section class="block4">
-         <h4 class="block4-title">RECENT STORIES</h4>
-         <div class="block4-stories">
-           <div class="stories-1">
-             <img class="stories-1__img" src="" alt="Foto Stories1">
-             <h4 class="stories-1__title">Presents Justin Anagoa</h4>
-             <p class="stories-1__text">
+       <section class="stories">
+         <h4 class="stories__title">RECENT STORIES</h4>
+         <div class="stories__story">
+           <div class="story-anagoa">
+             <img class="story-anagoa__img" src="img/stories/stories1.svg" alt="Foto Stories1">
+             <h4 class="story-anagoa__title">Presents Justin Anagoa</h4>
+             <p class="story-anagoa__text">
                Anagoa’s been a&nbsp;part of the
                skater’s family ever since his early teenage years.
                He’s been known to go big on and off the board, but it’s
                been rare we get a&nbsp;glimpse into how Anagoa lives
                his day-to-day, to see what makes Anagoa tick.</p>
-             <a class="stories-1__link" href="#">LEARN MORE</a>
-             <time class="stories-1__data" datetime="2018-08-11">11.08.2018</time>
+             <a class="story-anagoa__link" href="#">LEARN MORE
+               <img class="arrow-anogoa" src="img/arrow-b.svg" alt="Стрелка">
+             </a>
+             <time class="story-anagoa__data" datetime="2018-08-11">11.08.2018</time>
            </div>
-           <div class="stories-2">
-             <img class="stories-2__img" src="" alt="Foto Stories2">
-             <h4 class="stories-2__title">First Frontside flip</h4>
-             <p class="stories-2__text">
+           <div class="story-flip">
+             <img class="story-flip__img" src="" alt="Foto Stories2">
+             <h4 class="story-flip__title">First Frontside flip</h4>
+             <p class="story-flip__text">
                Yoon recently discusses his first time shooting a&nbsp;signature
                Andrew Reynolds frontside flip on The Berrics. Click the image
                below to see the full gallery and read up on what happened that
                day. Photo:Yoon Sul</p>
-             <a class="stories-2__link" href="#">LEARN MORE</a>
-             <time class="stories-2__data" datetime="2018-08-17">17.08.2018</time>
+             <a class="story-flip__link" href="#">LEARN MORE
+               <img class="arrow-flip" src="img/arrow-b.svg" alt="Стрелка">
+             </a>
+             <time class="story-flip__data" datetime="2018-08-17">17.08.2018</time>
            </div>
-           <div class="stories-3">
-             <img class="stories-3__img" src="" alt="Foto Stories3">
-             <h4 class="stories-3__title">Kevin Baekkel is Pro</h4>
-             <p class="stories-3__text">
+           <div class="story-baekkel">
+             <img class="story-baekkel__img" src="" alt="Foto Stories3">
+             <h4 class="story-baekkel__title">Kevin Baekkel is Pro</h4>
+             <p class="story-baekkel__text">
                Creature proudly announced today that they’re officially adding
                Kevin Baekkel to their pro roster. After paying his dues for
                years, killing it on last years Thrasher King of the Road, and
                constantly lighting every spot he hits on fire.</p>
-             <a class="stories-3__link" href="#">LEARN MORE</a>
-             <time class="stories-3__data" datetime="2018-07-29">29.07.2018</time>
+             <a class="story-baekkel__link" href="#">LEARN MORE
+               <img class="arrow-baekkel" src="img/arrow-b.svg" alt="Стрелка">
+             </a>
+             <time class="story-baekkel__data" datetime="2018-07-29">29.07.2018</time>
            </div>
          </div>
        </section>
-       <section class="block5">
-         <a class="block5-link" href="#">#AXIONFOOTWEAR></a>
+       <section class="fotos">
+         <a class="fotos-link" href="#">#AXIONFOOTWEAR></a>
          <div class="foto">
-           <img class="foto__img1" src="" alt="Foto 1">
-           <img class="foto__img2" src="" alt="Foto 2">
-           <img class="foto__img3" src="" alt="Foto 3">
-           <img class="foto__img4" src="" alt="Foto 4">
-           <img class="foto__img5" src="" alt="Foto 5">
-           <img class="foto__img6" src="" alt="Foto 6">
-           <img class="foto__img7" src="" alt="Foto 7">
+           <img class="foto__img" src="img/rectangle/rectangle1.svg" alt="Foto 1">
+           <img class="foto__img" src="" alt="Foto 2">
+           <img class="foto__img" src="" alt="Foto 3">
+           <img class="foto__img" src="" alt="Foto 4">
+           <img class="foto__img" src="" alt="Foto 5">
+           <img class="foto__img" src="" alt="Foto 6">
+           <img class="foto__img" src="" alt="Foto 7">
          </div>
        </section>
      </main>
        <footer class="footer">
-         <div class="footer__column1">
-           <h5 class=column1-title>MY ACCOUNT</h5>
-           <ul class="column1-nav">
-             <li class="column1-nav__link"><a href="#">Login</a></li>
-             <li class="column1-nav__link"><a href="#">Wish List</a></li>
-             <li class="column1-nav__link"><a href="#">Order History</a></li>
-             <li class="column1-nav__link"><a href="#">Track order</a></li>
-             <li class="column1-nav__link"><a href="#">Gift cards</a></li>
+         <div class="footer__account">
+           <h5 class="account-title">MY ACCOUNT</h5>
+           <ul class="account-nav">
+             <li class="account-nav__link"><a href="#">Login</a></li>
+             <li class="account-nav__link"><a href="#">Wish List</a></li>
+             <li class="account-nav__link"><a href="#">Order History</a></li>
+             <li class="account-nav__link"><a href="#">Track order</a></li>
+             <li class="account-nav__link"><a href="#">Gift cards</a></li>
            </ul>
          </div>
-         <div class="footer__column2">
-           <h5 class=column2-title>CUSTOMER SERVICE</h5>
-           <ul class="column2-nav">
-             <li class="column2-nav__link"><a href="#">Contact us</a></li>
-             <li class="column2-nav__link"><a href="#">Help/FAQ</a></li>
-             <li class="column2-nav__link"><a href="#">Shipping</a></li>
-             <li class="column2-nav__link"><a href="#">Returns</a></li>
-             <li class="column2-nav__link"><a href="#">Size guide</a></li>
-             <li class="column2-nav__link"><a href="#">Holiday shopping</a></li>
+         <div class="footer__service">
+           <h5 class="service-title">CUSTOMER SERVICE</h5>
+           <ul class="service-nav">
+             <li class="service-nav__link"><a href="#">Contact us</a></li>
+             <li class="service-nav__link"><a href="#">Help/FAQ</a></li>
+             <li class="service-nav__link"><a href="#">Shipping</a></li>
+             <li class="service-nav__link"><a href="#">Returns</a></li>
+             <li class="service-nav__link"><a href="#">Size guide</a></li>
+             <li class="service-nav__link"><a href="#">Holiday shopping</a></li>
            </ul>
          </div>
-         <div class="footer__column3">
-           <h5 class=column3-title>MISCELLANEOUS</h5>
-           <ul class="column3-nav">
-             <li class="column3-nav__link"><a href="#">About Us</a></li>
-             <li class="column3-nav__link"><a href="#">Careers</a></li>
-             <li class="column3-nav__link"><a href="#">Privacy Policy</a></li>
-             <li class="column3-nav__link"><a href="#">Terms & Conditions</a></li>
-             <li class="column3-nav__link"><a href="#">Ethical Policy</a></li>
-             <li class="column3-nav__link"><a href="#">Homepage US/UK</a></li>
+         <div class="footer__column">
+           <h5 class="column-title">MISCELLANEOUS</h5>
+           <ul class="column-nav">
+             <li class="column-nav__link"><a href="#">About Us</a></li>
+             <li class="column-nav__link"><a href="#">Careers</a></li>
+             <li class="column-nav__link"><a href="#">Privacy Policy</a></li>
+             <li class="column-nav__link"><a href="#">Terms & Conditions</a></li>
+             <li class="column-nav__link"><a href="#">Ethical Policy</a></li>
+             <li class="column-nav__link"><a href="#">Homepage US/UK</a></li>
            </ul>
          </div>
-         <div class="footer__column4">
-           <h5 class=column4-title>NEWSLETTER SIGN UP</h5>
-           <ul class="column4-nav">
-             <li class="column4-nav__link">
+         <div class="footer__net">
+           <h5 class=net-title>NEWSLETTER SIGN UP</h5>
+           <ul class="net-nav">
+             <li class="net-nav__link">
                <a href="#">Get 10% Off Your Next Order!</a>
              </li>
            </ul>
-           <button class="column4-nav__button">SING UP</button>
+           <button class="net-nav__button">SING UP</button>
            <div class="group">
-             <img class="group__img1" src="" alt="Facebook">
-             <img class="group__img2" src="" alt="Twitter">
-             <img class="group__img3" src="" alt="Instagram">
-             <img class="group__img4" src="" alt="P">
+             <img class="group__img" src="img/footer/facebook.svg" alt="Facebook">
+             <img class="group__img" src="img/footer/twitter.svg" alt="Twitter">
+             <img class="group__img" src="img/footer/insta.svg" alt="Instagram">
+             <img class="group__img" src="img/footer/p.svg" alt="P">
            </div>
          </div>
          <h5 class="footer-title">© 2019 Axion. All rights reserved.</h5>
