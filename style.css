@@ -1,3 +1,8 @@
+.header, .main {
+  width: 88%;
+  margin: auto;
+}
+
 .menu {
   font: bold 11px/12px 'gotham_probold', arial, helvetica, sans-serif;
 }
