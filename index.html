@@ -12,13 +12,25 @@
         <div class="logo">
           <img class="logo__axion" src="img/header/logo.svg" alt="AXION">
         </div>
-        <nav class="menu">
-          <a class="menu__link" href="#">SHOP</a>
-          <a class="menu__link" href="#">NEWS</a>
-          <a class="menu__link" href="#">TEAM</a>
-          <a class="menu__link" href="#">LEGASY</a>
-          <a class="menu__link" href="#">HELP</a>
-        </nav>
+        <div class="logo__adapt">
+          <img class="logo__adapt-img" src="img/header/logo-adapt.svg" alt="AXION">
+        </div>
+        <div class="logo__mobile">
+          <img class="logo__mobile-img" src="img/header/logo-375.svg" alt="AXION">
+        </div>
+        <div class="burger">
+          <input id="menu__toggle" type="checkbox">
+          <label class="menu__mobile" for="menu__toggle">
+            <span></span>
+          </label>
+          <nav class="menu">
+            <a class="menu__link" href="#">SHOP</a>
+            <a class="menu__link" href="#">NEWS</a>
+            <a class="menu__link" href="#">TEAM</a>
+            <a class="menu__link" href="#">LEGASY</a>
+            <a class="menu__link" href="#">HELP</a>
+          </nav>
+        </div>
       </div>
       <div class="header-right">
         <div class="search">
@@ -40,40 +52,45 @@
       <main class="main">
         <section class="first">
           <h1 class="first__title">LEGENDARY FOOTWEAR REBORN.</h1>
-          <a class="first__link" href="#">SHOP NOW
-            <img class="arrow-first" src="img/arrow-w.svg" alt="Стрелка">
-          </a>
+          <a class="first__link" href="#">SHOP NOW</a>
         </section>
         <section class="product">
           <h2 class="product__title">FEATURED PRODUCT</h2>
           <div class="product__content">
             <div class="content-black">
               <img class="content-black__img" src="img/product/product-1.svg" alt="Фото Atlas Black">
-              <p class="content-black__text">Atlas Black/Pasta Axion</p>
-              <p class="content-black__price">$89.00
-                <img class="circle-black" src="img/circle1.svg" alt="Circles1">
-              </p>
+              <p class="content-black__text">Atlas Black/Rasta Axion</p>
+              <div class="content-black__price">
+                <p class="content-black__pr">$89.00</p>
+                <div class="content-black__circle"></div>
+              </div>
             </div>
+            <div class="line-black"></div>
             <div class="content-camel">
               <img class="content-camel__img" src="img/product/product-2.svg" alt="Фото Camel">
               <p class="content-camel__text">Camel/Chili Pepper Axion</p>
-              <p class="content-camel__price">$74.00
-                <img class="circle-camel" src="img/circle2.svg" alt="Circles2">
-              </p>
+              <div class="content-camel__price">
+                <p class="content-camel__pr">$74.00</p>
+                <div class="content-camel__circle"></div>
+              </div>
             </div>
+            <div class="line-camel"></div>
             <div class="content-smoke">
               <img class="content-smoke__img" src="img/product/product-3.svg" alt="Фото Mandel Smoke">
               <p class="content-smoke__text">Mandel Smoke/Rust Axion</p>
-              <p class="content-smoke__price">$69.00
-                <img class="circle-smoke" src="img/circle3.svg" alt="Circles3">
-              </p>
+              <div class="content-smoke__price">
+                <p class="content-smoke__pr">$69.00</p>
+                <div class="content-smoke__circle"></div>
+              </div>
             </div>
+            <div class="line-smoke"></div>
             <div class="content-cloud">
               <img class="content-cloud__img" src="img/product/product-4.svg" alt="Фото Cloud">
               <p class="content-cloud__text">Cloud/Electric Blue/Axion</p>
-              <p class="content-cloud__price">$69.00
-                <img class="circle-cloud" src="img/circle4.svg" alt="Circles4">
-              </p>
+              <div class="content-cloud__price">
+                <p class="content-cloud__pr">$69.00</p>
+                <div class="content-cloud__circle"></div>
+              </div>
             </div>
           </div>
         </section>
@@ -155,43 +172,41 @@
         <footer class="footer">
           <div class="footer__account">
             <h5 class="account-title">MY ACCOUNT</h5>
-            <ul class="account-nav">
-              <li class="account-nav__link"><a href="#">Login</a></li>
-              <li class="account-nav__link"><a href="#">Wish List</a></li>
-              <li class="account-nav__link"><a href="#">Order History</a></li>
-              <li class="account-nav__link"><a href="#">Track order</a></li>
-              <li class="account-nav__link"><a href="#">Gift cards</a></li>
-            </ul>
+            <nav class="account-nav">
+              <a class="account-nav__link" href="#">Login</a>
+              <a class="account-nav__link" href="#">Wish List</a>
+              <a class="account-nav__link" href="#">Order History</a>
+              <a class="account-nav__link" href="#">Track order</a>
+              <a class="account-nav__link" href="#">Gift cards</a>
+            </nav>
           </div>
           <div class="footer__service">
             <h5 class="service-title">CUSTOMER SERVICE</h5>
-            <ul class="service-nav">
-              <li class="service-nav__link"><a href="#">Contact us</a></li>
-              <li class="service-nav__link"><a href="#">Help/FAQ</a></li>
-              <li class="service-nav__link"><a href="#">Shipping</a></li>
-              <li class="service-nav__link"><a href="#">Returns</a></li>
-              <li class="service-nav__link"><a href="#">Size guide</a></li>
-              <li class="service-nav__link"><a href="#">Holiday shopping</a></li>
-            </ul>
+            <nav class="service-nav">
+              <a class="service-nav__link" href="#">Contact us</a>
+              <a class="service-nav__link" href="#">Help/FAQ</a>
+              <a  class="service-nav__link" href="#">Shipping</a>
+              <a class="service-nav__link" href="#">Returns</a>
+              <a class="service-nav__link" href="#">Size guide</a>
+              <a class="service-nav__link" href="#">Holiday shopping</a>
+            </nav>
           </div>
           <div class="footer__column">
             <h5 class="column-title">MISCELLANEOUS</h5>
-            <ul class="column-nav">
-              <li class="column-nav__link"><a href="#">About Us</a></li>
-              <li class="column-nav__link"><a href="#">Careers</a></li>
-              <li class="column-nav__link"><a href="#">Privacy Policy</a></li>
-              <li class="column-nav__link"><a href="#">Terms & Conditions</a></li>
-              <li class="column-nav__link"><a href="#">Ethical Policy</a></li>
-              <li class="column-nav__link"><a href="#">Homepage US/UK</a></li>
-            </ul>
+            <nav class="column-nav">
+              <a class="column-nav__link" href="#">About Us</a>
+              <a class="column-nav__link" href="#">Careers</a>
+              <a class="column-nav__link" href="#">Privacy Policy</a>
+              <a class="column-nav__link" href="#">Terms & Conditions</a>
+              <a class="column-nav__link" href="#">Ethical Policy</a>
+              <a class="column-nav__link" href="#">Homepage US/UK</a>
+            </nav>
           </div>
           <div class="footer__net">
             <h5 class=net-title>NEWSLETTER SIGN UP</h5>
-            <ul class="net-nav">
-              <li class="net-nav__link">
-                <a href="#">Get 10% Off Your Next Order!</a>
-              </li>
-            </ul>
+            <nav class="net-nav">
+              <a class="net-nav__link" href="#">Get 10% Off Your Next Order!</a>
+            </nav>
             <button class="net-nav__button">SING UP</button>
             <div class="group">
               <img class="group__img" src="img/footer/facebook.svg" alt="Facebook">
