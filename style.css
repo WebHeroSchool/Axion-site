@@ -579,8 +579,8 @@ body {
     display: flex;
     align-items: center;
     position: fixed;
-    top: 43px;
-    right: 35px;
+    top: 47px;
+    right: 42px;
     width: 61px;
     height: 30px;
     cursor: pointer;
@@ -668,13 +668,13 @@ body {
   }
 
   .first {
-    margin: 0 0 66px 0;
+    margin: 0 0 68px 0;
     background: center no-repeat url(img/block1-768.svg);
     height: 415px;
   }
 
   .first__title {
-    padding: 122px 0 0 43px;
+    padding: 125px 0 0 43px;
     font: bold 50px/48px 'gotham_probold', arial, helvetica, sans-serif;
     margin-bottom: 45px;
   }
@@ -736,7 +736,7 @@ body {
   .content-camel__img {
     width: 88%;
     margin: 0 0 10px 0;
-    padding: 0 10px 13px 14px;
+    padding: 0 20px 13px 10px;
   }
 
   .content-camel__text  {
@@ -1027,7 +1027,7 @@ body {
   .menu__link {
     display: block;
     margin: 0;
-    padding: 15px 0;
+    padding: 10px 0;
     width: auto;
     font: bold 30px/29px 'gotham_probold', arial, helvetica, sans-serif;
   }
@@ -1119,5 +1119,4 @@ body {
     margin: 0;
     padding: 0;
   }
-
 }
