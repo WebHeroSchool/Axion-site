@@ -88,7 +88,7 @@ body {
   color: #000;
   position: relative;
   text-decoration: none;
-  margin-right: 35px;
+  margin-right: 31px;
 }
 
 .menu-right__link:last-child {
@@ -651,7 +651,8 @@ body {
 .net-title {
   color: #fff;
   font: bold 12px/11px 'gotham_probold', arial, helvetica, sans-serif;
-  margin: 0 0 10px 0;
+  margin: 0 0 6px 0;
+  padding: 0 0 0 5px;
   cursor: pointer;
 }
 
@@ -669,7 +670,8 @@ body {
   color: #fff;
   font: 12px/11px 'gotham_proregular', arial, helvetica, sans-serif;
   text-decoration: none;
-  margin-bottom: 7px;
+  margin-bottom: 12px;
+  padding: 0 0 0 5px;
   cursor: pointer;
 }
 
@@ -681,7 +683,7 @@ body {
   font: bold 10px/10px 'gotham_probold', arial, helvetica, sans-serif;
   border: solid 2px #fff;
   padding: 10px 20px 8px 20px;
-  margin: 0 30px 0 0;
+  margin: 0 34px 0 5px;
   text-align: center;
 }
 
@@ -701,6 +703,7 @@ body {
 .group__img {
   background-size: 5%;
   cursor: pointer;
+  padding: 0 0 0 7px;
 }
 
 .group__img:hover {
@@ -721,7 +724,7 @@ body {
   }
 
   .header {
-    margin-bottom: 39px;
+    margin-bottom: 37px;
   }
 
   .first {
@@ -730,7 +733,12 @@ body {
 
   .logo {
     padding: 31px 6px 0 0;
-    margin-right: 30px;
+    margin-right: 25px;
+  }
+
+  .logo__axion {
+    width: 61px;
+    height: 58px;
   }
 
   .logo__mobile {
@@ -740,6 +748,9 @@ body {
   .menu {
     padding-top: 30px;
   }
+  .menu__link {
+    margin-right: 31px;
+  }
 
   .search {
     width: 160px;
@@ -748,6 +759,10 @@ body {
 
   .search__img {
     padding: 0 0 5px 0px;
+  }
+
+  .menu-right {
+    padding: 54px 0 0 0;
   }
 
   .menu-right__link {
@@ -1001,6 +1016,18 @@ body {
 
   .footer__account {
     margin: 0 37px 0 5px;
+  }
+
+  .account-title {
+    margin: 0 0 13px 0;
+  }
+
+  .service-title {
+    margin: 0 0 13px 0;
+  }
+
+  .column-title {
+    margin: 0 0 13px 0;
   }
 
   .footer-column {
@@ -1399,7 +1426,7 @@ body {
     font: bold 20px/19px 'gotham_probold', arial, helvetica, sans-serif;
     background: right no-repeat url(img/Arrow-w768s.svg);
     padding-right: 58px;
-    margin: 0 55px 0 0;
+    margin: 0 28px 0 0;
   }
 
   .arrow-anagoa {
@@ -1409,7 +1436,6 @@ body {
   .story-anagoa__data {
     color: #fff;
     font: bold 15px/14px 'gotham_probold', arial, helvetica, sans-serif;
-    position: absolute;
     opacity: 1;
   }
 
@@ -1439,7 +1465,7 @@ body {
     color: #fff;
     background: right no-repeat url(img/Arrow-w768s.svg);
     font: bold 20px/19px 'gotham_probold', arial, helvetica, sans-serif;
-    margin: 0 38px 0 0;
+    margin: 0 28px 0 0;
     padding-right: 58px;
   }
 
@@ -1450,7 +1476,6 @@ body {
   .story-flip__data {
     color: #fff;
     font: bold 15px/14px 'gotham_probold', arial, helvetica, sans-serif;
-    position: absolute;
     opacity: 1;
   }
 
@@ -1679,20 +1704,20 @@ body {
   }
 
   .content-black {
-    width: 272px;
+    width: 279px;
   }
 
 
   .content-black__img {
     width: 60%;
-    padding: 0 15px 0 55px;
-    margin: 0 0 23px 0;
+    padding: 0 12px 0 58px;
+    margin: 0 0 21px 0;
   }
 
   .content-black__text {
     font: 15px/14px 'gotham_proregular', arial, helvetica, sans-serif;
-    margin: 0 25px 10px 0;
-    padding: 0 0 0 9px;
+    margin: 0 25px 8px 0;
+    padding: 0 0 0 12px;
   }
 
   .content-black__price {
@@ -1702,7 +1727,7 @@ body {
 
   .content-black__pr {
     font: bold 20px/19px 'gotham_probold', arial, helvetica, sans-serif;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 15px;
     margin: 0;
   }
 
@@ -1711,7 +1736,7 @@ body {
     height: 15px;
     background: right no-repeat url(img/circle-375.svg);
     margin: 0;
-    padding: 2px 0 0 0;
+    padding: 2px 0 0 2px;
   }
 
   .block-video {
@@ -1941,6 +1966,7 @@ body {
 
    .footer__net {
      width: 100%;
+     align-items: center;
   }
 
   .net-title {
@@ -1976,15 +2002,16 @@ body {
 
   .group {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: 0;
-    padding-left: 30px;
+    padding: 0 0 0 70px;
+    width: 190px;
   }
 
   .group__img {
     background-size: 30%;
-    margin-right: 35px;
-
+    margin: 0;
+    padding: 0;
   }
 
   .footer-title {
