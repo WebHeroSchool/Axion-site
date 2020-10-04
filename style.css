@@ -717,7 +717,7 @@ body {
   margin: 0 0 33px 0;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1130px) {
   .header, .main {
     width: 91%;
     margin: auto;
@@ -788,7 +788,7 @@ body {
   }
 
   .product {
-    margin-bottom: 76px;
+    margin-bottom: 70px;
   }
 
   .product__title {
@@ -797,13 +797,14 @@ body {
 
   .content-black__img {
     width: 80%;
-    padding: 0 3px 0 23px;
-    margin: 0 0 35px 0;
+    padding: 10px 3px 0 23px;
+    margin: 0 0 28px 0;
   }
 
   .content-black__circle {
     padding: 0 15px 0 0;
     margin: 0 14px 0 0;
+    background: right no-repeat url(img/circle1-1024.svg);
   }
 
   .content-camel {
@@ -812,8 +813,8 @@ body {
 
   .content-camel__img {
     width: 85%;
-    padding: 0 0 11px 18px;
-    margin: 0 0 23px 0;
+    padding: 0 0 0 18px;
+    margin: 0 0 35px 0;
   }
 
   .content-camel__text  {
@@ -826,10 +827,10 @@ body {
 
   .content-camel__circle {
     width: 54px;
-    height: 9px;
-    margin: 0 10px 0 0;
-    padding: 4px 10px 0 0;
-    background: right no-repeat url(img/circle2.svg);
+    height: 20px;
+    margin: 0 5px 0 0;
+    padding: 0 0 0 0;
+    background: right no-repeat url(img/circle2-1024.svg);
   }
 
   .content-smoke__img {
@@ -846,14 +847,15 @@ body {
     padding: 0 0 0 33px;
   }
 
+  .content-smoke__circle {
+    margin-right: 18px;
+    background: right no-repeat url(img/circle3-1024.svg);
+  }
+
   .content-cloud__img {
     width: 85%;
     padding: 0 0 0 12px;
     margin: 0 7px 32px 0;
-  }
-
-  .content-smoke__circle {
-    margin-right: 13px;
   }
 
   .content-cloud__text  {
@@ -865,7 +867,8 @@ body {
   }
 
   .content-cloud__circle {
-    padding-right: 5px;
+    padding-right: 18px;
+    background: right no-repeat url(img/circle4-1024.svg);
   }
 
   .block-video {
@@ -1082,7 +1085,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 990px) {
   .main {
     width: 100%;
     margin: auto;
@@ -1398,15 +1401,14 @@ body {
   }
 
   .story-anagoa {
-    margin-right: 55px;
     padding-left: 45px;
-    position: relative;
+    margin: 0;
   }
 
   .story-anagoa__img {
     width: 312px;
     height: 165px;
-    margin-bottom: 30px;
+    margin: 0 55px 30px 0;
   }
 
   .story-anagoa__title {
@@ -1418,7 +1420,7 @@ body {
   .story-anagoa__text {
     color: #fff;
     font: 20px/24px 'gotham_proregular', arial, helvetica, sans-serif;
-    margin: 0 0 43px 0;
+    margin: 0 55px 43px 0;
   }
 
   .story-anagoa__link {
@@ -1426,7 +1428,7 @@ body {
     font: bold 20px/19px 'gotham_probold', arial, helvetica, sans-serif;
     background: right no-repeat url(img/Arrow-w768s.svg);
     padding-right: 58px;
-    margin: 0 28px 0 0;
+    margin: 0 48px 0 0;
   }
 
   .arrow-anagoa {
@@ -1544,14 +1546,26 @@ body {
     margin: 0;
   }
 
+  .account-title {
+    margin: 0 0 9px 0;
+  }
+
   .footer__service {
     margin: 0;
     padding: 0 15px 0 0;
   }
 
+  .service-title {
+    margin: 0 0 9px 0;
+  }
+
   .footer__column {
     margin: 0;
     padding: 0 10px 0 0;
+  }
+
+  .column-title {
+    margin: 0 0 9px 0;
   }
 
   .footer__net {
@@ -1562,31 +1576,40 @@ body {
 
   .net-title {
     margin-bottom: 6px;
+    padding: 0;
   }
 
   .net-nav {
     display: flex;
     flex-direction: column;
-    margin-bottom: 31px;
+    margin-bottom: 29px;
   }
 
   .net-nav__link {
     color: #fff;
     font: 12px/12px 'gotham_proregular', arial, helvetica, sans-serif;
     text-decoration: none;
-    margin-bottom: 9px;
+    margin-bottom: 10px;
     cursor: pointer;
     word-spacing: 6px;
+    padding: 0;
   }
 
   .net-nav__link:last-child {
     font: bold 10px/9px 'gotham_probold', arial, helvetica, sans-serif;
     border: solid 2px #fff;
-    padding: 7px 0 7px 0;
-    margin: 0 0 0 0;
+    padding: 7px 0;
+    margin: 0;
     text-align: center;
     word-spacing: 3px;
     width: 141px;
+  }
+
+  .group__img {
+    height: 15px;
+    background-size: 5%;
+    padding: 0;
+
   }
 
   .footer-title {
@@ -1826,7 +1849,7 @@ body {
 
   .story-anagoa__link {
     font: bold 12px/11px 'gotham_probold', arial, helvetica, sans-serif;
-    margin-right: 60px;
+    margin-right: 58px;
   }
 
   .story-anagoa__data {
@@ -2002,16 +2025,18 @@ body {
 
   .group {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: 0;
-    padding: 0 0 0 70px;
-    width: 190px;
   }
 
   .group__img {
-    background-size: 30%;
-    margin: 0;
+    margin: 0 30px 0 0;
     padding: 0;
+    height: 21px;
+  }
+
+  .group__img:last-child {
+    margin: 0;
   }
 
   .footer-title {
@@ -2159,7 +2184,7 @@ body {
   .content-black__img {
     width: 61%;
     padding: 0;
-    margin: 0 0 27px 0;
+    margin: 0 0 22px 0;
 
   }
 
@@ -2184,7 +2209,7 @@ body {
 
   .content-black__circle {
     width: 75px;
-    height: 15px;
+    height: 20px;
     background: right no-repeat url(img/circle-375.svg);
     margin: 0;
     padding: 0;
@@ -2267,7 +2292,6 @@ body {
 
   .story-anagoa__link {
     font: bold 12px/11px 'gotham_probold', arial, helvetica, sans-serif;
-    margin: 0;
     padding: 0 53px 0 0;
   }
 
@@ -2332,6 +2356,7 @@ body {
     flex-direction: column;
     padding-top: 40px;
     text-align: center;
+    margin: 0 0 28px 0;
   }
 
   .footer__account {
@@ -2344,7 +2369,6 @@ body {
     color: #fff;
     font: bold 15px/14px 'gotham_probold', arial, helvetica, sans-serif;
     margin: 0 0 8px 0;
-
   }
 
   .account-nav {
@@ -2440,13 +2464,18 @@ body {
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 0 0 0 30px;
   }
 
   .group__img {
-    background-size: 30%;
-    margin: 0 35px 0 0;
+    margin: 0 30px 0 0;
+    padding: 0;
+    height: 21px;
   }
+
+  .group__img:last-child {
+    margin: 0;
+  }
+
 
   .footer-title {
     color: #fff;
